@@ -1,0 +1,40 @@
+.footer {
+  background-image: url(./../images/bg-footer.jpg);
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  top: 1214px;
+  z-index: 0;
+}
+
+.wave2 {
+  position: absolute;
+  top: 0px;
+  width: 100%
+}
+
+/* ALTERAÇÃO */
+.content-box {
+  position: sticky;
+  bottom: 0px;
+}
+
+.footer-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-3);
+  text-align: center;
+  margin-top: 100px;
+}
+
+.footer-content div {
+  color: var(--color-grey-4);
+}
+
+.footer-content p {
+  color: var(--color-grey-3);
+}
